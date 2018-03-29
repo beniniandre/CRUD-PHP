@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <title> CRUD PHP</title>
         <script type="text/javascript">
-            function AbrePagina(l){
+            function AbrePagina(l) {
                 location.href = l;
             }
         </script>
@@ -16,9 +16,18 @@
         <?php
         ?>
         <section class="login">
-            lalaa            
-            <button class="bt" id="b1" onclick="AbrePagina('../LgIndex.php')">LOGIN</button>
-            <button class="bt" id="b2" onclick="AbrePagina('../Cadastro.php')">NÃO É CADASTRADO? CADASTRE-SE AGORA</button>
+            <form action="" method="POST">
+                <div class="form-group">
+                    <br><br>
+                    <label class="la" id="l2"><b>E-mail:</b></label><br>
+                    <input type="email" id="email" autofocus>
+                    <br><br>
+                    <label class="la"><b>Senha:</b></label><br>
+                    <input type="password"  id="pwd">
+                </div>
+                <button type="submit" class="bt" id="b1" onclick="AbrePagina('../LgIndex.php')">LOGIN</button>
+                <button type="button" class="bt" id="b2" onclick="AbrePagina('../Cadastro.php')">NÃO É CADASTRADO? CADASTRE-SE AGORA</button>
+            </form>   
         </section>
         <footer>Desenvolvido por André Benini - Github :  <img  class="im" src="../../Imagens/GH.png" align="absbottom"/> 
             <a class="link1" href="www.github.com/beniniadre">beniniandre</a> | Twitter  :  <img class="im" src="../../Imagens/TW.png" align="absbottom"/> 
