@@ -1,7 +1,12 @@
 <?php
 
-class Conexao {
+    define('HOST', 'localhost');
+    define('USER', 'root');
+    define('PASS', '');
+    define('DBSA', 'crudphp');
 
+class Conexao {
+    
     private static  $Host = HOST;
     private static  $User = USER;
     private static  $Pass = PASS;

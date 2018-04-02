@@ -1,10 +1,5 @@
 <?php
 
-define('HOST', 'localhost');
-define('USER', 'root');
-define('PASS', '');
-define('DBSA', 'crudphp');
-
 function __autoload($Class) {
 
     $cDir = ['Conexao'];
