@@ -26,6 +26,7 @@
                 <option>Flamengo</option>
                 <option>Fluminense</option>
                 <option>Grêmio</option>
+                <option>Íbis</option>
                 <option>Internacional</option>
                 <option>Palmeiras</option>
                 <option>Santos</option>
