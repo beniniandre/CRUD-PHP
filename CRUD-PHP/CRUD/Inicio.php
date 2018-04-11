@@ -22,10 +22,10 @@
                 <div class="form-group">
                     <br><br>
                     <label class="la" id="l2"><b>E-mail:</b></label><br>
-                    <input type="email" id="email" autofocus>
+                    <input type="email" id="email" autofocus placeholder="Digite o seu E-mail...">
                     <br><br>
                     <label class="la"><b>Senha:</b></label><br>
-                    <input type="password"  id="pwd">
+                    <input type="password"  id="pwd" placeholder="Digite a sua Senha...">
                 </div>
                 <button type="submit" class="bt" id="b1" onclick="AbrePagina('LgIndex.php')">LOGIN</button>
             </form>   
