@@ -27,13 +27,13 @@
                     <label class="la"><b>Senha:</b></label><br>
                     <input type="password"  id="pwd" placeholder="Digite a sua Senha...">
                 </div>
-                <button type="submit" class="bt" id="b1" onclick="AbrePagina('LgIndex.php')">LOGIN</button>
+                <button type="submit"  id="b1" onclick="AbrePagina('LgIndex.php')">LOGIN</button>
             </form>   
-            <button type="button" class="bt" id="b2" onclick="AbrePagina('Cadastro.php')">NÃO É CADASTRADO? CADASTRE-SE AGORA</button>
+            <button type="button" id="b2" onclick="AbrePagina('Cadastro.php')">NÃO É CADASTRADO? CADASTRE-SE AGORA</button>
         </section>
         <footer>Desenvolvido por André Benini - Github :  <img  class="im" src="../Imagens/GH.png" align="absbottom"/> 
-            <a class="link1" href="www.github.com/beniniadre">beniniandre</a> | Twitter  :  <img class="im" src="../Imagens/TW.png" align="absbottom"/> 
-            <a class="link2" href="www.twitter.com/beniniandre">@beniniandre
+            <a class="link1" href="http://www.github.com/beniniandre">beniniandre</a> | Twitter  :  <img class="im" src="../Imagens/TW.png" align="absbottom"/> 
+            <a class="link2" href="http://www.twitter.com/beniniandre" >@beniniandre
             </a><br>andreluis_benini@hotmail.com</footer>
     </body>
 </html>

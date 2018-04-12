@@ -11,4 +11,5 @@
     
     $c = new Create();
     $c->Inserir($nome, $nascimento, $time, $sexo, $email, $senha);    
+    include ("../CadSucesso.php");
 ?>
