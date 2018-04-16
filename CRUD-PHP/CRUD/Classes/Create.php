@@ -9,7 +9,11 @@
     $email = $_POST['Email'];
     $senha = $_POST['Senha'];
     
+    if($nome == null || $nascimento == null || $time == null || $sexo == null || $email == null || $senha == null){
+        include ("../Cadastro.php");
+    } else {
     $c = new Create();
     $c->Inserir($nome, $nascimento, $time, $sexo, $email, $senha);    
-    include ("../CadSucesso.php");
+    include("../CadSucesso.php");
+    }
 ?>

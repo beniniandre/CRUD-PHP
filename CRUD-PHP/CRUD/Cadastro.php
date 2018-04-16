@@ -5,12 +5,18 @@
         <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
         <meta charset="UTF-8">
         <title>CRUD PHP - CADASTRO</title>
+        <script>
+        function AbreP(a){
+            location.href = a;
+        }
+        </script>
     </head>
     <body>
         <?php
         require ("../Conexao-e-Configuracao/Config.php");
         ?>
         <h1 class="titulo">CADASTRO: CRUD - PHP</h1>
+        <section class="cadastro">
         <form action="Classes/Create.php" method="POST">
             <label>Nome Completo:</label>
             <input type="text" name="NomeCompleto" autofocus placeholder="Digite o seu Nome Completo..."/>
@@ -42,7 +48,10 @@
             <input type="email" name="Email" id="email" placeholder="Digite o seu E-mail..."/>
             <label>Senha:</label>
             <input type="password" name="Senha" id="senha" placeholder="Digite a sua Senha..."/>
-            <button type="submit">Cadastrar</button>
+            <button type="submit" id="bc" class="button">Cadastrar</button>
+            <button type="button"  id="bb" class="button" onclick="AbreP('Inicio.php')">Voltar a tela de início</button>
+            </section>
         </form>
     </body>
 </html>
+    
