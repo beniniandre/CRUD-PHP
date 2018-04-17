@@ -18,11 +18,11 @@
         <h1 class="titulo">CADASTRO: CRUD - PHP</h1>
         <section class="cadastro">
         <form action="Classes/Create.php" method="POST">
-            <label>Nome Completo:</label>
+            <label id="lc">Nome Completo:</label>
             <input type="text" name="NomeCompleto" autofocus placeholder="Digite o seu Nome Completo..."/>
-            <label>Data de Nascimento:</label>
+            <label id="lc"><br>Data de Nascimento:</label>
             <input type="date" name="DataNascimento" placeholder="Digite a sua Data de Nascimento..."/>
-            <label>Time do Coração:</label>
+            <label id="lc"><br>Time do Coração:</label>
             <select name="Time">
                 <option>--</option>
                 <option>Atlético-MG</option>
@@ -42,12 +42,13 @@
             </select>
             <!--<input type="radio" name="Sexo" value="Masculino" id="masc"/><label>Masculino</label>
             <input type="radio" name="Sexo" value="Feminino" id="fem"/><label>Feminino</label> -->
-            <label>Sexo:</label>
+            <label id="lc"><br>Sexo:</label>
             <input type="text" name="Sexo" placeholder="Digite o seu Sexo..."/>
-            <label>E-mail:</label>
+            <label id="lc"><br>E-mail:</label>
             <input type="email" name="Email" id="email" placeholder="Digite o seu E-mail..."/>
-            <label>Senha:</label>
+            <label id="lc"><br>Senha:</label>
             <input type="password" name="Senha" id="senha" placeholder="Digite a sua Senha..."/>
+			<br>
             <button type="submit" id="bc" class="button">Cadastrar</button>
             <button type="button"  id="bb" class="button" onclick="AbreP('Inicio.php')">Voltar a tela de início</button>
             </section>
