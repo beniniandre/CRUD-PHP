@@ -14,8 +14,6 @@
     <body>
         <h1 class="titulo">CRUD - PHP</h1>
         <?php
-        require ("../Conexao-e-Configuracao/Config.php");
-        require ("../Conexao-e-Configuracao/Erros.php");
         ?>
         <section class="login">
             <form action="LgIndex.php" method="POST">

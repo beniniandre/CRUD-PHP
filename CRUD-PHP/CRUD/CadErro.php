@@ -15,6 +15,7 @@
         <?php
         ?>
         <h1 class="titulo">CADASTRO: CRUD - PHP</h1>
+        <h2 id="herro"><img id="ime" src="../Imagens/ERRO.png" align="absbottom"/> ATENÇÃO! UM OU MAIS DADOS FICARAM IMCOMPLETOS. PREENCHA TODOS OS DADOS!</h2>
         <section class="cadastro">
         <form action="Classes/Create.php" method="POST">
 		<br>
