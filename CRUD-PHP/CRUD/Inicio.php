@@ -16,16 +16,16 @@
         <?php
         ?>
         <section class="login">
-            <form action="LgIndex.php" method="POST">
+            <form action="Classes/Login.php" method="POST">
                 <div class="form-group">
                     <br><br>
                     <label class="la" id="l2"><b>E-mail:</b></label><br>
-                    <input type="email" id="email" autofocus placeholder="Digite o seu E-mail...">
+                    <input type="email" name="email" id="email" autofocus placeholder="Digite o seu E-mail...">
                     <br><br>
                     <label class="la"><b>Senha:</b></label><br>
-                    <input type="password"  id="pwd" placeholder="Digite a sua Senha...">
+                    <input type="password"  name="password" id="pwd" placeholder="Digite a sua Senha...">
                 </div>
-                <button type="submit"  id="b1" class="button" onclick="AbrePagina('LgIndex.php')">LOGIN</button>
+                <button type="submit"  id="b1" class="button">LOGIN</button>
             </form>   
             <button type="button" id="b2" class="button" onclick="AbrePagina('Cadastro.php')">NÃO É CADASTRADO? CADASTRE-SE AGORA</button>
         </section>

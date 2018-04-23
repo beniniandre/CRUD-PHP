@@ -2,12 +2,11 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>CRUD PHP - BEM VINDO</title>
+        <title></title>
     </head>
     <body>
         <?php
-     
         ?>
-        <h1>LOGOUUUUU</h1>
+            <h1>ERROOOOU dsad</h1>
     </body>
 </html>
