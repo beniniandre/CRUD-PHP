@@ -16,10 +16,10 @@
         <?php
         ?>
         <section class="login">
-            < <h2 id="errolg"><img id="ime" src="../Imagens/ERRO.png" align="absbottom"/> ATENÇÃO! UM OU MAIS DADOS FICARAM IMCOMPLETOS. PREENCHA TODOS OS DADOS!</h2>
+             <h2 id="errolg"><img id="ime" src="../Imagens/ERRO.png" align="absbottom"/> ATENÇÃO! UM OU MAIS DADOS FICARAM IMCOMPLETOS. PREENCHA TODOS OS DADOS!</h2>
             <form action="Classes/Login.php" method="POST">
                 <div class="form-group">
-                    <br><br>
+                    <br>
                     <label class="la" id="l2"><b>E-mail:</b></label><br>
                     <input type="email" name="email" id="email" autofocus placeholder="Digite o seu E-mail...">
                     <br><br>
